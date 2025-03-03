@@ -1,17 +1,30 @@
-# flutter_application_1
+User Authentication & Onboarding Module
+This Flutter project implements a user authentication and onboarding module with Firebase integration. The app allows users to sign up, complete onboarding (demographics & dietary preferences), and view their profile with stored data.
 
-A new Flutter project.
+Features
+✅ Firebase Authentication (Sign Up & Sign In)
+✅ Onboarding Process (Full Name, Gender, Birthdate, Diet Preferences)
+✅ Firestore Integration (User data storage & retrieval)
+✅ Profile Screen (Displays saved user data)
+✅ Material UI Design
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# AuthenticationApp
+Setup & Installation
+Clone the repository:
+bash
+Copy
+Edit
+git clone https://github.com/your-repo.git
+cd your-repo
+Install dependencies:
+bash
+Copy
+Edit
+flutter pub get
+Setup Firebase:
+Add google-services.json (Android) to android/app/
+Add GoogleService-Info.plist (iOS) to ios/Runner/
+Run the app:
+bash
+Copy
+Edit
+flutter run
