@@ -1,4 +1,7 @@
 User Authentication & Onboarding Module
+
+
+
 This Flutter project implements a user authentication and onboarding module with Firebase integration. The app allows users to sign up, complete onboarding (demographics & dietary preferences), and view their profile with stored data.
 
 Features
@@ -10,21 +13,14 @@ Features
 
 Setup & Installation
 Clone the repository:
-bash
-Copy
-Edit
+
 git clone https://github.com/your-repo.git
+
 cd your-repo
-Install dependencies:
-bash
-Copy
-Edit
-flutter pub get
+Install dependencies:                 flutter pub get
+        
 Setup Firebase:
 Add google-services.json (Android) to android/app/
 Add GoogleService-Info.plist (iOS) to ios/Runner/
 Run the app:
-bash
-Copy
-Edit
-flutter run
+        flutter run
