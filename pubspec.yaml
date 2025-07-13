@@ -37,7 +37,8 @@ dependencies:
   intl: ^0.20.2
   firebase_core: ^3.12.1
   firebase_auth: ^5.5.1
-  cloud_firestore: ^5.6.4
+  cloud_firestore: ^5.6.3
+#  ar_flutter_plugin: ^0.7.3
 
 dev_dependencies:
   flutter_test:
